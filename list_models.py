@@ -2,7 +2,7 @@ import os
 import google.generativeai as genai
 
 # Set the API key directly for testing
-genai.configure(api_key='AIzaSyDThnvak5WKtNoCN3c3PgJWo5E-35MNqis')
+genai.configure(api_key='xxxxx')
 
 models = genai.list_models()
 for model in models:
